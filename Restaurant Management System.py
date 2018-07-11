@@ -1,10 +1,9 @@
 from tkinter import*
 import random
 import time
-root = Tk() #variable
-root.geometry("1600x700+0+0")
+root = Tk() root.geometry("1600x700+0+0")
 root.title("Restaurant Management System")
-Tops = Frame(root,bg="maroon",width = 1600,height=150) #variable
+Tops = Frame(root,bg="maroon",width = 1600,height=150) 
 Tops.pack(side=TOP)
 f1 = Frame(root,width = 900,height=700)
 f1.pack(side=LEFT)
@@ -14,14 +13,14 @@ f2.pack(side=RIGHT)
 #------------------TIME--------------
 localtime=time.asctime(time.localtime(time.time()))
 
-#-----------------INFO TOP------------
+#-------------TOP------------
 lblinfo = Label(Tops, font=( 'george' ,40, 'bold'), text="Restaurant Management System", fg="maroon",bd=12,anchor='w') #name of variable
-lblinfo.grid(row=0,column=0) #to show rms on screen
+lblinfo.grid(row=0,column=0)
 lblinfo = Label(Tops, font=( 'george' ,20, ),text=localtime, fg="navy blue")
 lblinfo.grid(row=1,column=0)
 
 #---------------Calculator------------------
-text_Input=StringVar() #variable
+text_Input=StringVar() 
 operator =""
 txtdisplay = Entry(f2,font=('ariel' ,20,'bold'), textvariable=text_Input , bd=10 ,insertwidth=7 ,bg="white",justify='right')
 txtdisplay.grid(columnspan=4)
@@ -135,7 +134,7 @@ Division.grid(row=5,column=3)
 status = Label(f2,font=('georgia', 15, 'bold'),width = 16, text="~SHUBHAM",bd=2)
 status.grid(row=7,columnspan=3)
 
-#---------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------
 rand = StringVar()
 Fries = StringVar()
 Largefries = StringVar()
