@@ -1,7 +1,7 @@
 from tkinter import*
 import random
 import time
-root = Tk() root.geometry("1600x700+0+0")
+root = Tk() 
 root.title("Bikanervala- Indian Restaurant")
 Tops = Frame(root,bg="maroon",width = 1600,height=150) 
 Tops.pack(side=TOP)
