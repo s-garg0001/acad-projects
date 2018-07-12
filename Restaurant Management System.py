@@ -2,7 +2,7 @@ from tkinter import*
 import random
 import time
 root = Tk() root.geometry("1600x700+0+0")
-root.title("Restaurant Management System")
+root.title("Bikanervala- Indian Restaurant")
 Tops = Frame(root,bg="maroon",width = 1600,height=150) 
 Tops.pack(side=TOP)
 f1 = Frame(root,width = 900,height=700)
@@ -14,7 +14,7 @@ f2.pack(side=RIGHT)
 localtime=time.asctime(time.localtime(time.time()))
 
 #-------------TOP------------
-lblinfo = Label(Tops, font=( 'george' ,40, 'bold'), text="Restaurant Management System", fg="maroon",bd=12,anchor='w') #name of variable
+lblinfo = Label(Tops, font=( 'george' ,40, 'bold'), text="Bikanervala- Indian Restaurant", fg="maroon",bd=12,anchor='w') #name of variable
 lblinfo.grid(row=0,column=0)
 lblinfo = Label(Tops, font=( 'george' ,20, ),text=localtime, fg="navy blue")
 lblinfo.grid(row=1,column=0)
