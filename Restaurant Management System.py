@@ -3,7 +3,7 @@ import random
 import time
 root = Tk() 
 root.title("Bikanervala- Indian Restaurant")
-Tops = Frame(root,bg="steel grey",width = 1600,height=150) 
+Tops = Frame(root,bg="navy blue",width = 1600,height=150) 
 Tops.pack(side=TOP)
 f1 = Frame(root,width = 900,height=700)
 f1.pack(side=LEFT)
